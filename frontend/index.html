@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediScan - Simple Lab Report Tool</title>
+  <link rel="stylesheet" href="style_basic.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span>MediScan</span>
+            </div>
+            <div class="nav-links">
+                <a href="#upload" class="nav-link">Upload</a>
+                <a href="#results" class="nav-link">Results</a>
+                <a href="#evaluation" class="nav-link">Evaluate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Simple Lab Report Digitization</h1>
+            <p class="hero-subtitle">Upload a report to extract text and data.</p>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Upload Section -->
+        <section class="glass-card upload-section" id="upload">
+            <div class="card-header">
+                    <h2>Upload Lab Report</h2>
+                    <p>PDF or Image (PNG/JPG)</p>
+            </div>
+            
+            <div class="upload-zone" id="uploadZone">
+                <div class="upload-content">
+                    <h3>Choose a file to upload</h3>
+                    <p>or drag & drop into this box</p>
+                    <input type="file" id="fileInput" name="file" accept=".png,.jpg,.jpeg,.pdf" hidden>
+                    <button type="button" class="btn-primary" onclick="document.getElementById('fileInput').click()">Choose File</button>
+                </div>
+            </div>
+
+            <div class="file-info" id="fileInfo" style="display:none;">
+                <div class="file-details">
+                    
+                    <span id="fileName"></span>
+                    <span id="fileSize"></span>
+                </div>
+                <button class="btn-primary" id="uploadBtn">Process Report</button>
+            </div>
+    </section>
+
+        <!-- Progress Section -->
+        <section class="glass-card progress-section" id="progressSection" style="display:none;">
+            <div class="card-header">
+                <h2>Processing Report</h2>
+                <p>Please wait...</p>
+            </div>
+            
+            <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+                <div class="progress-steps">
+                    <div class="step active" id="step1"><span>Upload</span></div>
+                    <div class="step" id="step2"><span>OCR</span></div>
+                    <div class="step" id="step3"><span>AI Extract</span></div>
+                    <div class="step" id="step4"><span>Complete</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <div class="results-grid" id="results" style="display:none;">
+            <!-- Raw Text -->
+            <section class="glass-card">
+                <div class="card-header">
+                    <h2>Extracted Text</h2>
+                    <button class="btn-icon" onclick="copyToClipboard('rawText')">Copy</button>
+                </div>
+                <div class="content-area">
+                    <pre id="rawText" class="text-content">No file uploaded yet.</pre>
+                </div>
+    </section>
+
+            <!-- Structured Data -->
+            <section class="glass-card">
+                <div class="card-header">
+                    <h2>Structured Data</h2>
+                    <button class="btn-icon" onclick="downloadJSON()">Download</button>
+                </div>
+                <div class="content-area">
+                    <pre id="output" class="json-content">No file uploaded yet.</pre>
+                </div>
+    </section>
+
+            <!-- Patient Information -->
+            <section class="glass-card patient-card">
+                <div class="card-header">
+                    <h2>Patient Information</h2>
+                </div>
+                <div class="patient-info" id="patientInfo">
+                    <div class="info-item">
+                        <label>Name:</label>
+                        <span id="patientName">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Age:</label>
+                        <span id="patientAge">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Sex:</label>
+                        <span id="patientSex">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Date:</label>
+                        <span id="patientDate">-</span>
+                    </div>
+                </div>
+    </section>
+
+            <!-- Test Results -->
+            <section class="glass-card test-results-card">
+                <div class="card-header">
+                    <h2>Test Results</h2>
+                </div>
+                <div class="test-results" id="testResults">
+                    <p class="no-data">No test results extracted yet.</p>
+                </div>
+    </section>
+
+            <!-- Annotated Image -->
+            <section class="glass-card image-card">
+                <div class="card-header">
+                    <h2>Annotated Report</h2>
+                    <button class="btn-icon" onclick="downloadImage()">Download</button>
+                </div>
+                <div class="image-container">
+                    <img id="reportImage" class="report-image" alt="Annotated report will appear here">
+                    <div class="image-placeholder" id="imagePlaceholder">
+                        
+                        <p>Annotated report will appear here</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Evaluation Section -->
+        <section class="glass-card evaluation-section" id="evaluation" style="display:none;">
+            <div class="card-header">
+                <h2>System Evaluation</h2>
+                <p>Check accuracy and processed files</p>
+            </div>
+            
+            <div class="eval-controls">
+                <button class="btn-secondary" id="evaluateBtn">Run Evaluation</button>
+            </div>
+            
+            <div class="eval-results" id="evalOutput">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value" id="regexAccuracy">-</div>
+                        <div class="metric-label">Regex Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="hybridAccuracy">-</div>
+                        <div class="metric-label">AI Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="totalFiles">-</div>
+                        <div class="metric-label">Total Files</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="processedFiles">-</div>
+                        <div class="metric-label">Processed</div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+        <!-- HITL Correction Section -->
+        <section class="glass-card correction-section" id="correctionSection" style="display:none;">
+            <div class="card-header">
+                <h2>Manual Corrections</h2>
+                <p>Review and correct extracted data</p>
+            </div>
+            
+            <div class="correction-form" id="hitlForm">
+                <p class="no-data">Upload and process a file to enable corrections.</p>
+            </div>
+            
+            <div class="correction-actions">
+                <button class="btn-success" id="saveBtn" disabled>
+                    <i class="fas fa-save"></i> Save Corrections
+                </button>
+            </div>
+    </section>
+  </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 MediScan AI - Advanced Medical Document Processing</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
