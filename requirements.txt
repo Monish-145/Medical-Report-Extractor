@@ -1,0 +1,29 @@
+# Web Framework
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# OCR + Preprocessing
+python-doctr==0.8.1
+torch==2.2.2
+transformers==4.44.2
+torchvision==0.17.2
+opencv-python==4.9.0.80
+pdf2image==1.17.0
+Pillow==10.2.0
+PyPDF2==3.0.1
+pytesseract==0.3.10
+easyocr==1.7.0
+pdfplumber==0.10.3
+pymupdf==1.23.8
+
+# Data Handling
+pydantic==1.10.15
+scikit-learn==1.4.2
+numpy<2.0.0
+joblib==1.3.2
+requests==2.31.0
+
+# Additional dependencies for enhanced processing
+scipy==1.11.4
+matplotlib==3.8.2
+
