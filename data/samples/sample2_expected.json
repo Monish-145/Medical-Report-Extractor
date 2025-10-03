@@ -1,0 +1,23 @@
+{
+  "patient": {
+    "name": "SANDEEP YADAV",
+    "age": 21,
+    "sex": "M",
+    "date": "30/08/2018"
+  },
+  "tests": [
+    {"name": "Haemoglobin", "value": "16.0", "unit": "gm/dl"},
+    {"name": "Total Leucocytic Count (TLC)", "value": "9500", "unit": "/cumm"},
+    {"name": "Neutrophil", "value": "65", "unit": "%"},
+    {"name": "Lymphocyte", "value": "24", "unit": "%"},
+    {"name": "Eosinophil", "value": "5", "unit": "%"},
+    {"name": "Monocyte", "value": "6", "unit": "%"},
+    {"name": "ESR", "value": "2", "unit": "mm/1st hr"},
+    {"name": "PCV/Haematocrit", "value": "50.3", "unit": "%"},
+    {"name": "MCV", "value": "90.1", "unit": "fl"},
+    {"name": "MCH", "value": "28.5", "unit": "pg"},
+    {"name": "MCHC", "value": "33.6", "unit": "gm/dl"},
+    {"name": "Platelet Count", "value": "2.00", "unit": "lacs/cmm"},
+    {"name": "RBC Count", "value": "5.14", "unit": "million/cmm"}
+  ]
+}

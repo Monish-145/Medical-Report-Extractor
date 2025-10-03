@@ -1,0 +1,24 @@
+{
+  "patient": {
+    "name": "PANKAJ JAIN",
+    "age": 33,
+    "sex": "Male",
+    "date": "12/09/2018"
+  },
+  "tests": [
+    {"name": "TLC", "value": "7.0", "unit": "Th/mm³"},
+    {"name": "Polymorph", "value": "63", "unit": "%"},
+    {"name": "Lymphocytes", "value": "35", "unit": "%"},
+    {"name": "Eosinophils", "value": "1", "unit": "%"},
+    {"name": "Monocytes", "value": "1", "unit": "%"},
+    {"name": "Basophils", "value": "0", "unit": "%"},
+    {"name": "TRBC", "value": "4.7", "unit": "mil/cu-mm"},
+    {"name": "Hb%", "value": "13.8", "unit": "gms/dl"},
+    {"name": "PCV", "value": "42.0", "unit": "%"},
+    {"name": "MCV", "value": "84.0", "unit": "fl"},
+    {"name": "MCH", "value": "29.0", "unit": "pg"},
+    {"name": "MCHC", "value": "32.0", "unit": "g/dl"},
+    {"name": "Platelet Count", "value": "2.9", "unit": "lakh/mm³"},
+    {"name": "ESR", "value": "13", "unit": "mm/1hr"}
+  ]
+}

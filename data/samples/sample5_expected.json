@@ -1,0 +1,24 @@
+{
+  "patient": {
+    "name": "MOHD UVAIS",
+    "age": 27,
+    "sex": "Male",
+    "date": "24/04/2025"
+  },
+  "tests": [
+    {"name": "Hemoglobin", "value": "14.3", "unit": "g/dl"},
+    {"name": "Haematocrit", "value": "43.2", "unit": "%"},
+    {"name": "RBC Count", "value": "5.02", "unit": "Million/ul"},
+    {"name": "MCV", "value": "86.1", "unit": "fl"},
+    {"name": "MCH", "value": "28.6", "unit": "pg"},
+    {"name": "MCHC", "value": "33.2", "unit": "g/dl"},
+    {"name": "RDW", "value": "16.2", "unit": "%"},
+    {"name": "Platelet Count", "value": "240", "unit": "10^3/mm³"},
+    {"name": "TLC Count", "value": "5.32", "unit": "10^3/mm³"},
+    {"name": "Neutrophils", "value": "72", "unit": "%"},
+    {"name": "Lymphocytes", "value": "21", "unit": "%"},
+    {"name": "Eosinophils", "value": "3", "unit": "%"},
+    {"name": "Monocytes", "value": "4", "unit": "%"},
+    {"name": "Basophils", "value": "0", "unit": "%"}
+  ]
+}

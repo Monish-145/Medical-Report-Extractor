@@ -1,0 +1,19 @@
+{
+  "patient": {
+    "name": "SAMIR KUMAR SINGH",
+    "age": 37,
+    "sex": "Male",
+    "date": "08/09/2018"
+  },
+  "tests": [
+    {"name": "Sodium Serum", "value": "141.2", "unit": "meq/L"},
+    {"name": "Potassium Serum", "value": "4.4", "unit": "meq/L"},
+    {"name": "Calcium Serum", "value": "9.6", "unit": "mg/dl"},
+    {"name": "Total Bilirubin Serum", "value": "0.36", "unit": "mg/dl"},
+    {"name": "Conjugated (D. Bilirubin) Serum", "value": "0.15", "unit": "mg/dl"},
+    {"name": "Unconjugated (I.D. Bilirubin) Serum", "value": "0.21", "unit": "mg/dl"},
+    {"name": "SGOT (S.G.O.T) Serum", "value": "32.5", "unit": "U/L"},
+    {"name": "SGPT (S.G.P.T) Serum", "value": "27.9", "unit": "U/L"},
+    {"name": "Alkaline Phosphatase Serum", "value": "188.0", "unit": "U/L"}
+  ]
+}

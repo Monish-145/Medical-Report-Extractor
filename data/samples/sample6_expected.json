@@ -1,0 +1,24 @@
+{
+  "patient": {
+    "name": "SAUJENDRAKUMAR",
+    "age": 30,
+    "sex": "Male",
+    "date": "17/09/2018"
+  },
+  "tests": [
+    {"name": "Haemoglobin", "value": "13.9", "unit": "gm%"},
+    {"name": "Total RBC Count", "value": "5.0", "unit": "mill/cu.mm"},
+    {"name": "Total WBC Count", "value": "6900", "unit": "/cu.mm"},
+    {"name": "Platelet Count", "value": "214000", "unit": "lac/cu.mm"},
+    {"name": "Polymorphs", "value": "68", "unit": "%"},
+    {"name": "Lymphocytes", "value": "26", "unit": "%"},
+    {"name": "Eosinophils", "value": "4", "unit": "%"},
+    {"name": "Monocytes", "value": "2", "unit": "%"},
+    {"name": "Basophils", "value": "0", "unit": "%"},
+    {"name": "PCV", "value": "48", "unit": "%"},
+    {"name": "MCV", "value": "96", "unit": "fl"},
+    {"name": "MCH", "value": "27.8", "unit": "pg"},
+    {"name": "MCHC", "value": "28.96", "unit": "%"},
+    {"name": "RDW", "value": "12.6", "unit": "%"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "patient": {
+    "name": "FREDIN TOM CYRIAC",
+    "dob": "21/12/1992",
+    "age": 25,
+    "sex": "M",
+    "visit_id": "OP0001"
+  },
+  "tests": [
+    {"name": "Cholesterol, total - Serum", "value": "168.5", "unit": "mg/dl"},
+    {"name": "Triglycerides - Serum", "value": "87.5", "unit": "mg/dl"},
+    {"name": "Cholesterol HDL - Serum", "value": "35.5", "unit": "mg/dl"},
+    {"name": "Cholesterol LDL - Serum", "value": "130.2", "unit": "mg/dl"},
+    {"name": "Cholesterol VLDL", "value": "17.5", "unit": "mg/dl"},
+    {"name": "Glucose [F] - Serum/Plasma", "value": "91.3", "unit": "mg/dl"},
+    {"name": "Creatinine - Serum", "value": "0.98", "unit": "mg/dl"},
+    {"name": "Uric acid - Serum", "value": "7.2", "unit": "mg/dl"},
+    {"name": "Bilirubin Total - Serum", "value": "1.01", "unit": "mg/dl"},
+    {"name": "AST (SGOT) - Serum", "value": "13.8", "unit": "IU/L"},
+    {"name": "ALT (SGPT) - Serum", "value": "16.6", "unit": "IU/L"},
+    {"name": "G-6-PD - E & I Lab", "value": "5.8", "unit": "Units/gm HB"}
+  ]
+}

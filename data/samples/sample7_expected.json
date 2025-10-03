@@ -1,0 +1,23 @@
+{
+  "patient": {
+    "name": "SUCHISMITA PATRA",
+    "age": 34,
+    "sex": "F",
+    "date": "30/08/2018"
+  },
+  "tests": [
+    {"name": "Haemoglobin", "value": "12.3", "unit": "gm/dl"},
+    {"name": "Total Leucocytic Count (TLC)", "value": "8800", "unit": "/cumm"},
+    {"name": "Neutrophil", "value": "57", "unit": "%"},
+    {"name": "Lymphocyte", "value": "32", "unit": "%"},
+    {"name": "Eosinophil", "value": "5", "unit": "%"},
+    {"name": "Monocyte", "value": "6", "unit": "%"},
+    {"name": "ESR", "value": "9", "unit": "mm/1st hr"},
+    {"name": "PCV/Haematocrit", "value": "43.2", "unit": "%"},
+    {"name": "MCV", "value": "87.0", "unit": "fl"},
+    {"name": "MCH", "value": "29.4", "unit": "pg"},
+    {"name": "MCHC", "value": "32.6", "unit": "gm/dl"},
+    {"name": "Platelet Count", "value": "2.62", "unit": "lacs/cmm"},
+    {"name": "RBC Count", "value": "5.12", "unit": "million/cmm"}
+  ]
+}
