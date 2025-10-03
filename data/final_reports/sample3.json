@@ -1,0 +1,1083 @@
+{
+  "patient": {
+    "name": "TEST RESULT NORMAL RANGE TLC",
+    "age": 33,
+    "sex": "M",
+    "id": "UNKNOWN",
+    "dob": "UNKNOWN",
+    "visit_id": "UNKNOWN",
+    "date": "12/09/2018"
+  },
+  "tests": [
+    {
+      "name": "5- 10 Th/mm3 DLC Polymorph 63 40-759 Lymphocytes 35 20- 45 Eosinophils",
+      "value": "01",
+      "unit": "monocytes",
+      "matched_tokens": [
+        "5- 10 Th/mm3 DLC Polymorph 63 40-759 Lymphocytes 35 20- 45 Eosinophils",
+        "01",
+        "Monocytes"
+      ]
+    },
+    {
+      "name": "Basophils 00 TRBC",
+      "value": "4.7",
+      "unit": "mil/cu-mm",
+      "matched_tokens": [
+        "Basophils 00 TRBC",
+        "4.7",
+        "mil/cu-mm"
+      ]
+    },
+    {
+      "name": "8 gms/di 12",
+      "value": "17.4",
+      "unit": "gms/di",
+      "matched_tokens": [
+        "8 gms/di 12",
+        "17.4",
+        "gms/di"
+      ]
+    },
+    {
+      "name": "PCV",
+      "value": "42",
+      "unit": ".",
+      "matched_tokens": [
+        "PCV",
+        "42",
+        "."
+      ]
+    },
+    {
+      "name": "0 36 52 MCV",
+      "value": "84.0",
+      "unit": "fi",
+      "matched_tokens": [
+        "0 36 52 MCV",
+        "84.0",
+        "fi"
+      ]
+    },
+    {
+      "name": "76 96 MCH",
+      "value": "29.0",
+      "unit": "pg",
+      "matched_tokens": [
+        "76 96 MCH",
+        "29.0",
+        "pg"
+      ]
+    },
+    {
+      "name": "32pg MCHC",
+      "value": "32.0",
+      "unit": "g/di",
+      "matched_tokens": [
+        "32pg MCHC",
+        "32.0",
+        "g/di"
+      ]
+    },
+    {
+      "name": "35 g/lt Platelet Count APC",
+      "value": "2.9",
+      "unit": "lakh/mm",
+      "matched_tokens": [
+        "35 g/lt Platelet Count APC",
+        "2.9",
+        "lakh/mm"
+      ]
+    },
+    {
+      "name": "3 ESR 13 mm/1Hr 0-",
+      "value": "20",
+      "unit": "mm/",
+      "matched_tokens": [
+        "3 ESR 13 mm/1Hr 0-",
+        "20",
+        "mm/"
+      ]
+    },
+    {
+      "name": "DCP ( Pathologist) Rego",
+      "value": "12512",
+      "unit": "clpanvabosptal",
+      "matched_tokens": [
+        "DCP ( Pathologist) Rego",
+        "12512",
+        "CLPANVABOSPTAL"
+      ]
+    },
+    {
+      "name": "Rooptiha Colony New Sanganer Road",
+      "value": "6",
+      "unit": "odala",
+      "matched_tokens": [
+        "Rooptiha Colony New Sanganer Road",
+        "6",
+        "odala"
+      ]
+    },
+    {
+      "name": "c. l. panwar",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "c. l. panwar"
+      ]
+    },
+    {
+      "name": "c",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "c"
+      ]
+    },
+    {
+      "name": "-",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "-"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "41",
+      "unit": "",
+      "matched_tokens": [
+        "41"
+      ]
+    },
+    {
+      "name": ",",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ","
+      ]
+    },
+    {
+      "name": "r",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "r"
+      ]
+    },
+    {
+      "name": "##oop",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##oop"
+      ]
+    },
+    {
+      "name": "##vihar, near",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##vihar, near"
+      ]
+    },
+    {
+      "name": "v",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "v"
+      ]
+    },
+    {
+      "name": "##ive",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ive"
+      ]
+    },
+    {
+      "name": "##k v",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##k v"
+      ]
+    },
+    {
+      "name": "##ihar",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ihar"
+      ]
+    },
+    {
+      "name": ",",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ","
+      ]
+    },
+    {
+      "name": "metro station",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "metro station"
+      ]
+    },
+    {
+      "name": ", soda",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ", soda"
+      ]
+    },
+    {
+      "name": "##la",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##la"
+      ]
+    },
+    {
+      "name": ", jai",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ", jai"
+      ]
+    },
+    {
+      "name": "##pur",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##pur"
+      ]
+    },
+    {
+      "name": "-",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "-"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "302",
+      "unit": "",
+      "matched_tokens": [
+        "302"
+      ]
+    },
+    {
+      "name": "##019 patient",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##019 patient"
+      ]
+    },
+    {
+      "name": "m",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "m"
+      ]
+    },
+    {
+      "name": "##r panka",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##r panka"
+      ]
+    },
+    {
+      "name": "##j",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##j"
+      ]
+    },
+    {
+      "name": "jain age 33 years sex male",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "jain age 33 years sex male"
+      ]
+    },
+    {
+      "name": "ref",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "ref"
+      ]
+    },
+    {
+      "name": "by aegon life reg",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "by aegon life reg"
+      ]
+    },
+    {
+      "name": "no",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "no"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "0550",
+      "unit": "",
+      "matched_tokens": [
+        "0550"
+      ]
+    },
+    {
+      "name": "##1",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##1"
+      ]
+    },
+    {
+      "name": "date 12 / 09 / 2018 ha",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "date 12 / 09 / 2018 ha"
+      ]
+    },
+    {
+      "name": "##ema",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ema"
+      ]
+    },
+    {
+      "name": "##tology",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##tology"
+      ]
+    },
+    {
+      "name": "complete",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "complete"
+      ]
+    },
+    {
+      "name": "blood count with",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "blood count with"
+      ]
+    },
+    {
+      "name": "es",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "es"
+      ]
+    },
+    {
+      "name": "##r test name test result",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##r test name test result"
+      ]
+    },
+    {
+      "name": "normal",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "normal"
+      ]
+    },
+    {
+      "name": "range",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "range"
+      ]
+    },
+    {
+      "name": "tlc 7.",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "tlc 7."
+      ]
+    },
+    {
+      "name": "0 th /",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "0 th /"
+      ]
+    },
+    {
+      "name": "mm",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "mm"
+      ]
+    },
+    {
+      "name": "##a",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##a"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "5",
+      "unit": "",
+      "matched_tokens": [
+        "5"
+      ]
+    },
+    {
+      "name": "- 10 th / mm3",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "- 10 th / mm3"
+      ]
+    },
+    {
+      "name": "dl",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "dl"
+      ]
+    },
+    {
+      "name": "##c",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##c"
+      ]
+    },
+    {
+      "name": "p",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "p"
+      ]
+    },
+    {
+      "name": "##olymorph",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##olymorph"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "63",
+      "unit": "",
+      "matched_tokens": [
+        "63"
+      ]
+    },
+    {
+      "name": "40 - 759",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "40 - 759"
+      ]
+    },
+    {
+      "name": "lymph",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "lymph"
+      ]
+    },
+    {
+      "name": "##ocytes",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ocytes"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "35",
+      "unit": "",
+      "matched_tokens": [
+        "35"
+      ]
+    },
+    {
+      "name": "20 -",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "20 -"
+      ]
+    },
+    {
+      "name": "45 e",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "45 e"
+      ]
+    },
+    {
+      "name": "##os",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##os"
+      ]
+    },
+    {
+      "name": "##inophils",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##inophils"
+      ]
+    },
+    {
+      "name": "01 monocytes 01",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "01 monocytes 01"
+      ]
+    },
+    {
+      "name": "[ red",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "[ red"
+      ]
+    },
+    {
+      "name": "##acted ] b",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##acted ] b"
+      ]
+    },
+    {
+      "name": "##as",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##as"
+      ]
+    },
+    {
+      "name": "##ophils 00 t",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ophils 00 t"
+      ]
+    },
+    {
+      "name": "##rbc 4",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##rbc 4"
+      ]
+    },
+    {
+      "name": ". 7",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ". 7"
+      ]
+    },
+    {
+      "name": "mi",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "mi"
+      ]
+    },
+    {
+      "name": "##l / cu - mm 4 - 5. 5 mil / cu - mm hb % 13. 8 gms / di 12 17. 4 gms / di pcv 42. 0 36 52 mcv 84. 0 fi",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##l / cu - mm 4 - 5. 5 mil / cu - mm hb % 13. 8 gms / di 12 17. 4 gms / di pcv 42. 0 36 52 mcv 84. 0 fi"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "76",
+      "unit": "",
+      "matched_tokens": [
+        "76"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "96",
+      "unit": "",
+      "matched_tokens": [
+        "96"
+      ]
+    },
+    {
+      "name": "m",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "m"
+      ]
+    },
+    {
+      "name": "##ch",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ch"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "29",
+      "unit": "",
+      "matched_tokens": [
+        "29"
+      ]
+    },
+    {
+      "name": ". 0",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ". 0"
+      ]
+    },
+    {
+      "name": "p",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "p"
+      ]
+    },
+    {
+      "name": "##g",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##g"
+      ]
+    },
+    {
+      "name": "27 [ red",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "27 [ red"
+      ]
+    },
+    {
+      "name": "##acted ] 32pg",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##acted ] 32pg"
+      ]
+    },
+    {
+      "name": "m",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "m"
+      ]
+    },
+    {
+      "name": "##ch",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ch"
+      ]
+    },
+    {
+      "name": "##c",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##c"
+      ]
+    },
+    {
+      "name": "32. 0 g / di",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "32. 0 g / di"
+      ]
+    },
+    {
+      "name": "30 [ red",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "30 [ red"
+      ]
+    },
+    {
+      "name": "##acted ]",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##acted ]"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "35",
+      "unit": "",
+      "matched_tokens": [
+        "35"
+      ]
+    },
+    {
+      "name": "g /",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "g /"
+      ]
+    },
+    {
+      "name": "l",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "l"
+      ]
+    },
+    {
+      "name": "##t plate",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##t plate"
+      ]
+    },
+    {
+      "name": "##let",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##let"
+      ]
+    },
+    {
+      "name": "count",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "count"
+      ]
+    },
+    {
+      "name": "apc",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "apc"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "2",
+      "unit": "",
+      "matched_tokens": [
+        "2"
+      ]
+    },
+    {
+      "name": ". 9",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        ". 9"
+      ]
+    },
+    {
+      "name": "lakh / mm3",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "lakh / mm3"
+      ]
+    },
+    {
+      "name": "1. 5 4.",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "1. 5 4."
+      ]
+    },
+    {
+      "name": "0 lakh / mm3",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "0 lakh / mm3"
+      ]
+    },
+    {
+      "name": "es",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "es"
+      ]
+    },
+    {
+      "name": "##r",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##r"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "13",
+      "unit": "",
+      "matched_tokens": [
+        "13"
+      ]
+    },
+    {
+      "name": "mm / 1hr 0 - 20 mm / 1hr end",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "mm / 1hr 0 - 20 mm / 1hr end"
+      ]
+    },
+    {
+      "name": "d",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "d"
+      ]
+    },
+    {
+      "name": "##r. nirish agarwal",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##r. nirish agarwal"
+      ]
+    },
+    {
+      "name": "m",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "m"
+      ]
+    },
+    {
+      "name": "##bbs. dcp ( pathologist ) re",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##bbs. dcp ( pathologist ) re"
+      ]
+    },
+    {
+      "name": "##go",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##go"
+      ]
+    },
+    {
+      "name": "UNKNOWN",
+      "value": "12512",
+      "unit": "",
+      "matched_tokens": [
+        "12512"
+      ]
+    },
+    {
+      "name": "cl",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "cl"
+      ]
+    },
+    {
+      "name": "##panva",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##panva"
+      ]
+    },
+    {
+      "name": "##bos",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##bos"
+      ]
+    },
+    {
+      "name": "##ptal",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ptal"
+      ]
+    },
+    {
+      "name": "c",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "c"
+      ]
+    },
+    {
+      "name": "- 41, rooptiha",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "- 41, rooptiha"
+      ]
+    },
+    {
+      "name": "colony",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "colony"
+      ]
+    },
+    {
+      "name": "new sanganer road 6oda",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "new sanganer road 6oda"
+      ]
+    },
+    {
+      "name": "##la",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##la"
+      ]
+    },
+    {
+      "name": "jai",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "jai"
+      ]
+    },
+    {
+      "name": "##pur",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##pur"
+      ]
+    },
+    {
+      "name": "- 19 (",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "- 19 ("
+      ]
+    },
+    {
+      "name": "path",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "path"
+      ]
+    },
+    {
+      "name": "##ologist ) ( technp",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##ologist ) ( technp"
+      ]
+    },
+    {
+      "name": "##k",
+      "value": "",
+      "unit": "",
+      "matched_tokens": [
+        "##k"
+      ]
+    }
+  ]
+}

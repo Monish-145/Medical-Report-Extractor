@@ -1,0 +1,60 @@
+{
+  "patient": {},
+  "tests": [
+    {
+      "name": "apolonash AU ZTYr MOHD UVAIS",
+      "value": "6",
+      "unit": "M Name Mr. www.askapollo.com"
+    },
+    {
+      "name": "FIFTH FLOOR NSKIP",
+      "value": "48774",
+      "unit": "MHN I WNORatNo - UHID SHARED ROOM515-SR"
+    },
+    {
+      "name": "Hemoglobin",
+      "value": "14",
+      "unit": "39.0 54.0% Heematocrit"
+    },
+    {
+      "name": "Milionul",
+      "value": "4.2",
+      "unit": "6.5 RBC COUNT . 75.0 95.0"
+    },
+    {
+      "name": "a MCV",
+      "value": "26.0",
+      "unit": "32.0"
+    },
+    {
+      "name": "MCH pg",
+      "value": "31.0",
+      "unit": "36.0 gid MCHC"
+    },
+    {
+      "name": "Oifferentiel Count",
+      "value": "75",
+      "unit": "%"
+    },
+    {
+      "name": "Neutrophits %",
+      "value": "45",
+      "unit": null
+    },
+    {
+      "name": "Dr. Laul Abhishak Sanjay",
+      "value": "09",
+      "unit": "51 Prmed On 25-APR-2025 42 AM"
+    },
+    {
+      "name": "Page tol",
+      "value": "1",
+      "unit": null
+    },
+    {
+      "name": "Dr.Prashard Doctor Paa Raf",
+      "value": "24",
+      "unit": "-APR-2025 07 47-17 PM 24-APR-2025 0701 Collectedon 07 01 34 PM Recetveden 24-APR-2025 57 PM Raparted on"
+    }
+  ]
+}

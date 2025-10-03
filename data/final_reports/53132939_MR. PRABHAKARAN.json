@@ -1,0 +1,30 @@
+{
+  "patient": {
+    "name": "John Doe",
+    "age": 42,
+    "sex": "M",
+    "dob": "UNKNOWN",
+    "visit_id": "UNKNOWN",
+    "date": "08/09/2018"
+  },
+  "tests": [
+    {
+      "name": "Hemoglobin",
+      "value": "13.5",
+      "unit": "g/dL",
+      "confidence": 0.92
+    },
+    {
+      "name": "WBC",
+      "value": "7600",
+      "unit": "/\u00b5L",
+      "confidence": 0.9
+    },
+    {
+      "name": "Glucose",
+      "value": "95",
+      "unit": "mg/dL",
+      "confidence": 0.88
+    }
+  ]
+}
